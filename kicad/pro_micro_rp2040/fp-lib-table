@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pro_micro_rp2040")(type "KiCad")(uri "${KIPRJMOD}/pro_micro_rp2040.pretty")(options "")(descr ""))
+)
