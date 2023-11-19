@@ -3,7 +3,7 @@
 > [!WARNING]
 > The information and material (code, designs, files, ...) are provided "AS IS". We make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information or material. Use this at your own risk.
 
-This repository provides KiCad files and a basic 3D model for the "Pro Micro RP2040". This is a RP2040-based board, that is pin-compatible with the Arduino Pro Micro, which makes it a drop-in replacement for projects that need more processing power or more flash memory. 
+This repository provides KiCad files and a basic 3D model for the "Pro Micro RP2040". This is a RP2040-based board, which is pin-compatible with the Arduino Pro Micro. This makes it a drop-in replacement for projects that need more processing power or more flash memory. It is popular in the custom keyboard community, where the Arduino Pro Micro (and pin-compatible alternatives) are the golden standard.  
 
 <img src="images/pcb_top.jpg" width="210"> <img src="images/pcb_bottom.jpg" width="200">
 
@@ -37,7 +37,7 @@ To use the symbol, simple add `pro_micro_rp2040.kicad_sym` to your global or loc
 
 To use the footprint, simply add `pro_micro_rp2040.pretty` to your global or local footprint library.
 
-<img src="images/footprint.jpg" width="400">
+<img src="images/footprint.png" width="250">
 
 Associate the 3D model to the footprint if a preview in the 3D PCB view is desired (see next section).
 
@@ -45,11 +45,9 @@ Associate the 3D model to the footprint if a preview in the 3D PCB view is desir
 
 The `3d_models` folder contains a quick and dirty 3D model in different formats (3mf, obj, step and stl).
 
-It is very basic, lacks many details, and might not be 100% accurate. I did model the most protruding features, so it can be used for visual sizing and collision checks in projects that use this part.
+It is very basic and lacks many details. I did model the most protruding features, so it can be used for visual sizing and collision checks in projects that use this part.
 
 For KiCad, simply add the step file in your project's footprint settings if a preview is desired.
 
 <img src="images/3d_model.jpg" width="500">
-
-> [!WARNING]
-> The holes for the "inner" pins BOOT, GP18 and GP24 in the 3D model might not align perfectly with the holes in the footprint (0.1mm misalignment). The holes in the footprint are accurate, the issue is in the model and is a cosmetic issue (to be fixed...).
+<img src="images/3d_model2.jpg" width="500">

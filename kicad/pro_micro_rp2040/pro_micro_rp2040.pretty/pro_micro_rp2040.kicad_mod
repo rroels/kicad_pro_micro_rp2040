@@ -29,7 +29,7 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 6609cb3d-b5a2-4324-9018-fc6e894561f5))
   (fp_line (start 17.78 0) (end 17.78 -3)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 4f1982f3-e9b0-4e53-ad96-ac024c262211))
-  (fp_rect (start 4.39 -27.5) (end 13.39 -33.9)
+  (fp_rect (start 4.39 -27.25) (end 13.39 -33.65)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 69b83113-b667-48b1-9df9-418c05d8f6bd))
   (fp_rect (start 0 0) (end 17.78 -33)
     (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp 42eb9804-e501-46ad-ad2b-cc165f82e2a7))
@@ -52,30 +52,22 @@
   (pad "14" thru_hole circle (at 8.87 -1.26) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp d89c4224-142d-4b0a-bdc6-84cbddd0f6fe))
   (pad "15" thru_hole circle (at 11.41 -1.26) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 7a25ff05-387e-44fa-a553-68fe09674bb8))
   (pad "16" thru_hole circle (at 13.95 -1.26) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 9371f3cf-522a-4a21-a490-c1f8bcd24c38))
-  (pad "18" thru_hole circle (at 12.19 -15.7) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 17f5b0ed-59e7-4809-9eeb-9cf6b2d4e57a))
+  (pad "18" thru_hole circle (at 12.01 -15.7) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 17f5b0ed-59e7-4809-9eeb-9cf6b2d4e57a))
   (pad "20" thru_hole circle (at 16.49 -6.34) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 13b9993f-d9c1-4c91-9fcb-142cca22f7ca))
   (pad "21" thru_hole circle (at 16.49 -1.26) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp c9d5ad52-5ca0-44f4-8e01-de7bdad83848))
   (pad "22" thru_hole circle (at 16.49 -8.88) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 865246e7-10b9-433f-a39a-967983b72f1d))
   (pad "23" thru_hole circle (at 16.49 -3.8) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 3244ba4d-8336-4cee-a573-cff5efbe7e29))
-  (pad "24" thru_hole circle (at 13.96 -15.7) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp edc8353b-c37b-490c-9387-34e107517ab0))
+  (pad "24" thru_hole circle (at 14 -15.7) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp edc8353b-c37b-490c-9387-34e107517ab0))
   (pad "25" thru_hole circle (at 3.79 -3.8) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp c6ee6112-dd6d-4256-a725-df4ac3197d5e))
   (pad "26" thru_hole circle (at 16.49 -11.42) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 3f380726-4605-4953-ad75-3b0f9c0f862f))
   (pad "27" thru_hole circle (at 16.49 -13.96) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 028fa739-0669-41db-9672-def59288f7d7))
   (pad "28" thru_hole circle (at 16.49 -16.5) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp e3453e8f-e5fd-4d62-8936-542b20c0573f))
   (pad "29" thru_hole circle (at 16.49 -19.04) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 06083d4c-e391-42b8-b365-8f4596e6d9b2))
-  (pad "BOOT" thru_hole circle (at 3.8 -24.88) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp ae5f26ab-18c7-4eee-b533-1ce35fa20d6e))
+  (pad "BOOT" thru_hole circle (at 4 -24.93) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp ae5f26ab-18c7-4eee-b533-1ce35fa20d6e))
   (pad "GND" thru_hole circle (at 1.25 -24.12) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 8a8a63e5-1d59-4018-9096-7d929c0dc2e0))
   (pad "GND" thru_hole circle (at 1.25 -21.58) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 999a19fc-c40a-4657-8268-bbe4538acf30))
   (pad "GND" thru_hole circle (at 16.49 -26.66) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 537b1795-2242-4a27-89a3-2ed5d9169201))
   (pad "RST" thru_hole circle (at 16.49 -24.12) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 9b2bf9e9-89d7-47e5-b6d5-2326c1b49766))
-  (group "" (id 042493b0-2ac8-43f5-be10-b49a0ac83e43)
-    (members
-      17f5b0ed-59e7-4809-9eeb-9cf6b2d4e57a
-      ae5f26ab-18c7-4eee-b533-1ce35fa20d6e
-      edc8353b-c37b-490c-9387-34e107517ab0
-      f43efc7c-ca14-4a08-a6c9-0801332cf2f1
-    )
-  )
   (group "" (id f43efc7c-ca14-4a08-a6c9-0801332cf2f1)
     (members
       028fa739-0669-41db-9672-def59288f7d7
@@ -116,5 +108,10 @@
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "MiniPico_RP2040 V1.1.step" hide
+    (offset (xyz -5.15 80.3 0.4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )
