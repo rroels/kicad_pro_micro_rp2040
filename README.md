@@ -29,7 +29,7 @@ The two pads on the back, in the bottom left, are not documented. However, there
 
 ## Symbol
 
-To use the symbol, simple add `pro_micro_rp2040.kicad_sym` to your global or local symbol library.
+To use the symbol, simply add `pro_micro_rp2040.kicad_sym` to your global or local symbol library.
 
 <img src="images/symbol.jpg" width="300">
 
