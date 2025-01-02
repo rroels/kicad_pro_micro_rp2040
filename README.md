@@ -25,7 +25,7 @@ Link received from the AliExpress vendor:
 
 I measured mine with digital calipers and I can confirm that the manufactured units are within 0.1mm of the documented dimensions. 
 
-The two pads on the back, in the bottom left, are not documented. However, there is a similar model from the same manufacturer, the "Pico Mini RP2040". The Pico Mini has similar pads in the same location. There, the left and right pad are documented as `SWDIO` and `SWCLK` respectively ("left" and "right", when looking at the back). 
+The two pads on the back, in the bottom left, are not documented. However, there is a similar model from the same manufacturer, the "Pico Mini RP2040". The Pico Mini has similar pads in the same location. There, the left and right pad are documented as `SWDIO` and `SWCLK` respectively ("left" and "right", when looking at the back side of the PCB, with the USB connector facing upwards). 
 
 ## Symbol
 
